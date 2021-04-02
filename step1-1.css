@@ -1,0 +1,102 @@
+h1{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+  text-align:center;
+  }
+
+
+p{
+  color:#FFFAFA;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+  margin: 10px auto;
+  width:70%;
+}
+
+P1{
+  color:#ee8992;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+  display: inline-block;
+  width:440px;
+  text-align: center;
+}
+
+P2{
+  color:#ee8992;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+  width:70%;
+  }
+
+li{
+  color:#FFFAFA;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+  margin: 10px auto;
+  width:70%;
+}
+
+/*箇条書きデザイン*/
+.list39 {
+  position: relative;
+  margin: 3em 0 1em 0;
+  background: #fff6e6;
+  box-shadow: 0 2px 3px rgba(0,0,0,.22);
+}
+.list39-title {
+  font-size: 1.15em;
+  padding: 4px 0 4px 16px;
+  color: #ee8992;
+  font-weight:bold;
+  font-family: "UD デジタル 教科書体 NK-R","UD Digi Kyokasho NK-R";
+}
+.list39:after {
+  position: absolute;
+  content: "";
+  top: 25px;
+  width: 30%;
+  height: 35px;
+  opacity: 0.8;
+  margin: -35px auto 10px 35%;
+  background-color: #ffeaea;
+  background-image:
+  linear-gradient(-45deg, rgba(255,188,188,.5) 25%, transparent 25%, transparent 50%, rgba(255,188,188,.5) 50%, rgba(255,188,188,.5) 75%, transparent 75%, transparent 100%),
+  linear-gradient(45deg, rgba(255,188,188,.5) 25%, transparent 25%, transparent 50%, rgba(255,188,188,.5) 50%, rgba(255,188,188,.5) 75%, transparent 75%, transparent 100%);
+  background-size: 35px 35px;
+  transform: rotate(-2deg);
+  left: 10px;
+  right: 10px;
+}
+.list39 ul {
+  position: relative;
+  margin: 0;
+  padding: 0 0.5em 0 0.5em;
+  color: #ee8992;
+  border: none;
+  list-style-type: none;
+}
+
+.list39 ul li {
+  line-height: 1.5;
+  padding: 0.5em 0 0.5em 1.6em;
+  border-bottom: dashed 1px #ee8992;
+}
+.list39 ul li:before {
+  position: absolute;
+ font-family: FontAwesome;
+  content: "\f14a";
+  left : 8em;
+  color: #ee8992;
+}
+.list39 ul li:last-of-type{
+  border-bottom: none;
+}
+
+
+
+ 
+
+ 
+
+body {
+  background-color: #996666;
+}
+
